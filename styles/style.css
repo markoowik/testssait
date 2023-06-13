@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  background: url("https://phonoteka.org/uploads/posts/2021-05/1621635664_16-phonoteka_org-p-fon-v-stile-gta-18.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+}
+.wrapper-logo > span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+.wrapper-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+}
+.wrapper-menu > ul {
+  list-style: none;
+  display: inline-block;
+}
+.wrapper-menu-list > li {
+  display: inline-block;
+  padding: 10px;
+}
+.wrapper-menu-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 300ms;
+}
+.wrapper-menu-link:hover {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+.link2 {
+  border: 1px solid red;
+  background-color: red;
+  padding: 20px;
+}
+.link2:hover {
+  border: 1px solid red;
+  color: #fff;
+  box-shadow: 5px #fff;
+  -webkit-box-shadow: -3px -3px 62px -5px rgba(255, 255, 255, 0.6);
+  -moz-box-shadow: -3px -3px 62px -5px rgba(255, 255, 255, 0.6);
+  box-shadow: -3px -3px 62px -5px rgba(255, 255, 255, 0.6);
+}
+.welcome {
+  display: flex;
+  justify-content: space-between;
+}
+.welcome-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 580px;
+  height: 900px;
+}
+.welcome-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 580px;
+}
+.welcome-title > h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+.welcome-inner > p {
+  color: #fff;
+}
+.welcome-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 580px;
+  height: 90px;
+}
+.welcome-button > a {
+  border: 1px solid rgb(198, 1, 224);
+  width: 150px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: rgb(198, 1, 224);
+  transition: 300ms;
+}
+.welcome-button > a:hover {
+  transform: scale(1.1);
+}
+.welcome-right {
+  display: flex;
+  justify-content: space-between;
+}
+.welcome-right-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+.welcome-right-img > img {
+  width: 500px;
+  height: 500px;
+}
+.start {
+  display: flex;
+  justify-content: space-between;
+}
+.start-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 580px;
+}
+.start-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 580px;
+}
+.start-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 580px;
+  height: 90px;
+}
+.start-title > h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: GothamPro, sans-serif;
+}
+.start-inner > p {
+  color: #fff;
+
+  font-family: GothamPro, sans-serif;
+}
+.download-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 580px;
+  height: 90px;
+}
+.download-btn > a {
+  border: 1px solid rgb(198, 1, 224);
+  background-color: rgb(198, 1, 224);
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  font-family: GothamPro, sans-serif;
+  border-radius: 5px;
+}
+.how-to-start {
+  display: flex;
+  justify-content: space-between;
+}
+.how-to-start-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 580px;
+  margin-top: 30px;
+}
+.how-to-start-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 70px;
+}
+.how-to-start-title > h1 {
+  color: #fff;
+
+  font-family: GothamPro, sans-serif;
+}
+.how-to-start-inner > ul {
+  color: #fff;
+  font-family: GothamPro, sans-serif;
+}
+.how-to-start-inner > ul > p {
+  padding: 3px;
+}
+.how-to-start-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 580px;
+}
+.how-to-start-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 690px;
+}
+@media (max-width: 800px) {
+  .welcome,
+  .start {
+    display: flex;
+    flex-direction: column;
+  }
+}
