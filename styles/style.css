@@ -800,11 +800,11 @@ body {
     width: 450px;
   }
   .welcome-left-title > h2 {
-    font-size: 150%;
+    font-size: 70%;
   }
   .welcome-left-inner > h1 {
     width: 350px;
-    font-size: 170%;
+    font-size: 70%;
   }
   .welcome-right {
     display: flex;
